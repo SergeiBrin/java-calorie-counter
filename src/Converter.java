@@ -1,6 +1,6 @@
 public class Converter {
-    float kiloCalories;
-    float distance;
+    float kiloCalories = 0f;
+    float distance = 0f;
 
     Converter(float steps) {
         distance = (float) (steps * 0.00075);
