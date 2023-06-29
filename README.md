@@ -1,2 +1,2 @@
-# java-sprint1-hw
+# java-calorie-counter
 First sprint homework
