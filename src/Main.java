@@ -33,7 +33,7 @@ public class Main {
                 System.out.println("Среднее количество шагов: " + (int) values[1]);
                 System.out.println("Лучшая серия: " + (int) values[2]);
                 System.out.println("Пройденная дистанция: " + values[3] + " км");
-                System.out.println("Колличество сожённых каллорий: " + (int) values[4]);
+                System.out.println("Количество сожжённых калорий: " + (int) values[4]);
 
             } else if (numberMenu == 3) {
                 System.out.println("Сейчас твоя цель = " + stepTracker.stepsGoal + " шагов в день!");
