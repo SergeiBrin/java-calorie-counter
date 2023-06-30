@@ -61,7 +61,7 @@ public class StepTracker {
         return checkStepsNumber(scanner);
     }
 
-    int checkStepsNumber(Scanner scanner) { // Название метода исправил. Спасибо за наводку :)
+    int checkStepsNumber(Scanner scanner) {
         int number = 0;
         do {
             if (number < 0) {
@@ -123,7 +123,7 @@ public class StepTracker {
         return values;
     }
 
-    class MonthData {
+    static class MonthData {
         int[] daysToMonth = new int[30];
     }
 }
