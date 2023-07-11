@@ -6,9 +6,11 @@ public class StepTracker {
 
     StepTracker() {
         monthToData = new MonthData[12];
+
         for (int i = 0; i < monthToData.length; i++) {
             monthToData[i] = new MonthData();
         }
+
         stepsGoal = 10000;
     }
 
@@ -81,11 +83,11 @@ public class StepTracker {
         stepsGoal = steps;
     }
 
-    float[] printStepsOfMonth(int monthNumber) {
-        float[] values = new float[5];
-        float allMonthSteps = 0;
-        float averageMonthSteps = 0;
-        float bestSeries = 0;
+    double[] printStepsOfMonth(int monthNumber) {
+        double[] values = new double[5];
+        double allMonthSteps = 0;
+        double averageMonthSteps = 0;
+        double bestSeries = 0;
         int test = 0;
 
         int daysOfMonth = monthToData[monthNumber].daysToMonth.length;

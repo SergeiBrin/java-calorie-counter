@@ -21,13 +21,7 @@ public class Main {
 
             } else if (numberMenu == 2) {
                 int monthNumber = stepTracker.selectMonthNumber(scanner);
-
-                /*
-                Вернул массив значений, чтобы выполнить вывод в классе Main. Задание просит делать ввод и вывод в Main.
-                Тип float выбрал для того, чтобы вывести более точную цифру по пройденной дистанции. Остальные значения
-                округлил до int.
-                 */
-                float[] values = stepTracker.printStepsOfMonth(monthNumber);
+                double[] values = stepTracker.printStepsOfMonth(monthNumber);
 
                 System.out.println("Общее количество шагов в месяце: " + (int) values[0]);
                 System.out.println("Среднее количество шагов: " + (int) values[1]);
